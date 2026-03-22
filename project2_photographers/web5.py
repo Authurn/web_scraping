@@ -21,7 +21,7 @@ def chrome_driver():
             for file in files:
                 if "chromedriver" in file and not file.endswith(".chromedriver"):
                     potential_path = os.path.join(root, file)
-                    print("✅ Found likely candidate:", potential_path)
+                    print(" Found likely candidate:", potential_path)
                     driver_path = potential_path
                     break
 
